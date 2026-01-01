@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio KHOLISH</title>
+    <link rel="stylesheet" href="kholish.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR / NAVBAR -->
+    <aside class="sidebar">
+        <h2 class="logo">My Portfolio</h2>
+        <nav class="nav">
+            <button onclick="showPage('home')">Home</button>
+            <button onclick="showPage('profile')">Profile</button>
+            <button onclick="showPage('project')">Project</button>
+            <button onclick="showPage('media')">Media</button>
+        </nav>
+    </aside>
+
+    <!-- CONTENT -->
+    <main class="content">
+
+        <!-- HOME -->
+        <section id="home" class="page active">
+            <h1 class="reveal">Welcome!</h1>
+            <p class="reveal">Selamat datang di website portofolio saya.</p>
+
+            <img src="si ganteng.jpg" class="photo reveal" alt="Home">
+
+           <div class="media-box reveal">
+    <h3>Video Perkenalan</h3>
+    <video controls playsinline preload="metadata">
+        <source src="vidiotugas.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video HTML5.
+    </video>
+</div>
+
+
+            <div class="media-box reveal">
+                <h3>Audio</h3>
+                <audio controls preload="metadata">
+                    <source src="musik.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <footer class="footer">
+                © 2025 Website Saya Created by <strong>KHOLISH</strong>.
+            </footer>
+        </section>
+
+        <!-- PROFILE -->
+        <section id="profile" class="page">
+            <h1 class="reveal">Profile</h1>
+
+            <div class="photo-grid">
+                <img src="si ganteng.jpg" class="photo reveal">
+                <img src="si ganteng2.jpg" class="photo reveal">
+                <img src="si ganteng3.webp" class="photo reveal">
+            </div>
+
+            <div class="card reveal">
+                <p>Saya adalah pelajar yang tertarik pada desain dan pemrograman web.</p>
+            </div>
+
+            <footer class="footer">
+                © 2025 Website Saya Created by <strong>KHOLISH</strong>.
+            </footer>
+        </section>
+
+        <!-- PROJECT -->
+        <section id="project" class="page">
+            <h1 class="reveal">Project</h1>
+
+            <div class="photo-grid">
+                <div class="card reveal">
+                    <img src="project1.png">
+                    <p>Website Edukasi</p>
+                </div>
+                <div class="card reveal">
+                    <img src="project2.png">
+                    <p>Portfolio Design</p>
+                </div>
+                <div class="card reveal">
+                    <img src="project3.png">
+                    <p>Konten Digital</p>
+                </div>
+            </div>
+
+            <footer class="footer">
+                © 2025 Website Saya Created by <strong>KHOLISH</strong>.
+            </footer>
+        </section>
+
+        <!-- MEDIA -->
+        <section id="media" class="page">
+            <h1 class="reveal">Media Sosial</h1>
+
+            <div class="media-links reveal">
+                <a href="https://instagram.com/ulisss_h" target="_blank">Instagram</a>
+                <a href="https://wa.me/6285147729686" target="_blank">WhatsApp</a>
+                <a href="https://tiktok.com/@oulishhh1" target="_blank">TikTok</a>
+            </div>
+
+            <footer class="footer">
+                © 2025 Website Saya Created by <strong>KHOLISH</strong>.
+            </footer>
+        </section>
+
+    </main>
+</div>
+
+<script src="kholish.js"></script>
+</body>
+</html>
